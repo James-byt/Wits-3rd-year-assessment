@@ -234,7 +234,7 @@ namespace dental_sys
             // DateTime dtSignNow;
             if (dtExit.Value < DateTime.Now)
             {
-                MessageBox.Show("Date entred cannot be less than current date");
+                MessageBox.Show("Date entred cannot be less than current date") ;
                 blnValidExitDate = false;
             }
             return blnValidExitDate;
